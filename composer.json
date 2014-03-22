@@ -40,9 +40,9 @@
         }
     ],
     "require": {
-        "phpmorphy/phpmorphy": "x",
-        "phpmorphy/ru": "x",
-        "phpmorphy/en": "x"
+        "phpmorphy/phpmorphy": "1.x",
+        "phpmorphy/ru": "1.x",
+        "phpmorphy/en": "1.x"
     },
     "require-dev": {
         "phpunit/phpunit": "x"
