@@ -113,12 +113,12 @@ class Morphy implements MorphyInterface
     public function __construct($storage = PHPMORPHY_STORAGE_FILE)
     {
         $this->ruMorphy = new phpMorphy(
-            new phpMorphy_FilesBundle(dirname(__FILE__) . '/../vendor/phpmorphy/ru/', 'rus'),
+            new phpMorphy_FilesBundle(dirname(__FILE__) . '/../lib/phpmorphy/ru/', 'rus'),
             array('storage' => $storage)
         );
 
         $this->enMorphy = new phpMorphy(
-            new phpMorphy_FilesBundle(dirname(__FILE__) . '/../vendor/phpmorphy/en/', 'eng'),
+            new phpMorphy_FilesBundle(dirname(__FILE__) . '/../lib/phpmorphy/en/', 'eng'),
             array('storage' => $storage)
         );
     }
