@@ -1,6 +1,5 @@
 {
     "name": "mac/morphy",
-    "minimum-stability": "stable",
     "repositories": [
         {
             "type": "package",
