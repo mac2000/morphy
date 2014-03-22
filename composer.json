@@ -1,0 +1,59 @@
+{
+    "name": "mac/morphy",
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "phpmorphy/phpmorphy",
+                "version": "0.3.7",
+                "dist": {
+                    "url": "http://sourceforge.net/projects/phpmorphy/files/phpmorphy/0.3.7/phpmorphy-0.3.7.zip/download",
+                    "type": "zip"
+                },
+                "include-path": [""]
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "phpmorphy/ru",
+                "version": "0.3.7",
+                "dist": {
+                    "url": "http://sourceforge.net/projects/phpmorphy/files/phpmorphy-dictionaries/0.3.x/ru_RU/morphy-0.3.x-ru_RU-withjo-utf-8.zip/download",
+                    "type": "zip"
+                },
+                "include-path": [""]
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "phpmorphy/en",
+                "version": "0.3.7",
+                "dist": {
+                    "url": "http://sourceforge.net/projects/phpmorphy/files/phpmorphy-dictionaries/0.3.x/en_EN/morphy-0.3.x-en_EN-windows-1250.zip/download",
+                    "type": "zip"
+                },
+                "include-path": [""]
+            }
+        }
+    ],
+    "require": {
+        "phpmorphy/phpmorphy": "x",
+        "phpmorphy/ru": "x",
+        "phpmorphy/en": "x"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "x"
+    },
+    "autoload": {
+        "files": [
+            "vendor/phpmorphy/phpmorphy/src/common.php"
+        ],
+        "psr-4": {
+            "Morphy\\": "src",
+            "Morphy\\Tests\\": "tests"
+        }
+    }
+}
