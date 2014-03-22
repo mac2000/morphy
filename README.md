@@ -12,14 +12,22 @@ Add to your `composer.json`:
 
     {
         "require": {
-            "mac/morphy": "x"
+            "mac/morphy": "1.0.0"
         },
         "repositories": [
             {
-                "type": "vcs",
-                "url": "https://github.com/mac2000/morphy"
+                "type": "package",
+                "package": {
+                    "name": "mac/morphy",
+                    "version": "1.0.0",
+                    "dist": {
+                        "url": "https://github.com/mac2000/morphy/archive/1.0.0.zip",
+                        "type": "zip"
+                    },
+                    "include-path": [""]
+                }
             }
-        ]
+        ],
     }
 
 Usage example
