@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b09aaa6961ee759a4b5fa8a4ed254845",
+    "hash": "db32cc9881fec3535d41f0bef3af97a8",
     "packages": [
         {
             "name": "phpmorphy/en",
