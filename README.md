@@ -59,9 +59,11 @@ Add to your `composer.json`:
                 }
             }
         ],
-        "files": [
-            "phpmorphy/phpmorphy/src/common.php"
-        ]
+        "autoload": {
+            "files": [
+                "phpmorphy/phpmorphy/src/common.php"
+            ]
+        }
     }
 
 Usage example

@@ -48,9 +48,6 @@
         "phpunit/phpunit": "x"
     },
     "autoload": {
-        "files": [
-            "phpmorphy/phpmorphy/src/common.php"
-        ],
         "psr-4": {
             "Mac\\Morphy\\": "src"
         }
