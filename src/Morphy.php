@@ -1,5 +1,5 @@
 <?php
-namespace Morphy;
+namespace Mac\Morphy;
 
 use phpMorphy;
 use phpMorphy_FilesBundle;

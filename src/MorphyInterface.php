@@ -1,5 +1,5 @@
 <?php
-namespace Morphy;
+namespace Mac\Morphy;
 
 interface MorphyInterface
 {

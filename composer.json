@@ -52,12 +52,12 @@
             "vendor/phpmorphy/phpmorphy/src/common.php"
         ],
         "psr-4": {
-            "Morphy\\": "src"
+            "Mac\\Morphy\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Morphy\\Tests\\": "tests"
+            "Mac\\Morphy\\Tests\\": "tests"
         }
     }
 }

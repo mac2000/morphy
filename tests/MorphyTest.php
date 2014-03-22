@@ -1,7 +1,7 @@
 <?php
-namespace Morphy\Tests;
+namespace Mac\Morphy\Tests;
 
-use Morphy\Morphy;
+use Mac\Morphy\Morphy;
 use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 use ReflectionMethod;
@@ -71,7 +71,7 @@ class MorphyTests extends PHPUnit_Framework_TestCase
      */
     protected static function getMethod($name)
     {
-        $class = new ReflectionClass('Morphy\\Morphy');
+        $class = new ReflectionClass('Mac\\Morphy\\Morphy');
         $method = $class->getMethod($name);
         $method->setAccessible(true);
         return $method;
