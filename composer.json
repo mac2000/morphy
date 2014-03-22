@@ -49,7 +49,7 @@
     },
     "autoload": {
         "files": [
-            "vendor/phpmorphy/phpmorphy/src/common.php"
+            "phpmorphy/phpmorphy/src/common.php"
         ],
         "psr-4": {
             "Mac\\Morphy\\": "src"
