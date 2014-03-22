@@ -59,6 +59,9 @@
         }
     },
     "autoload-dev": {
+        "autoload": {
+            "files": ["lib/phpmorphy/phpmorphy/src/common.php"]
+        },
         "psr-4": {
             "Mac\\Morphy\\Tests\\": "tests"
         }
