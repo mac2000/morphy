@@ -54,14 +54,14 @@
         "phpunit/phpunit": "x"
     },
     "autoload": {
+        "autoload": {
+            "files": ["lib/phpmorphy/phpmorphy/src/common.php"]
+        },
         "psr-4": {
             "Mac\\Morphy\\": "src"
         }
     },
     "autoload-dev": {
-        "autoload": {
-            "files": ["lib/phpmorphy/phpmorphy/src/common.php"]
-        },
         "psr-4": {
             "Mac\\Morphy\\Tests\\": "tests"
         }
