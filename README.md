@@ -75,7 +75,7 @@ Usage example
 Here is few examples of library usage (in russian):
 
     <?php
-    use Morphy\Morphy;
+    use Mac\Morphy\Morphy;
 
     require_once 'vendor/autoload.php';
 
